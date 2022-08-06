@@ -7,8 +7,8 @@ l1=l
 l.sort()
 
 #x=float(input())
-x=72
-while(len(l1)!=0):
+x=90
+while(len(l1)!=1):
     n=len(l1)
     print(l1)
     if n%2!=0:
@@ -33,7 +33,7 @@ while(len(l1)!=0):
         elif x>l1[i]:
             l1=l1[i:]
             print(l1)
-if l1==[]:
+if len(l1)==1:
     print("not available")
     
 
